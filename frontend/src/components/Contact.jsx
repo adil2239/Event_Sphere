@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSendMessage = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://successful-threads-fish.cyclic.app/api/v1/message/send",
+      .post("http://localhost:4000/api/v1/message/send",
         {
           name,
           email,
